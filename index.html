@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomazina Green | Marketplace de Carbono Agro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">TOMAZINA <span>GREEN</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#saiba-mais">Saiba Mais</a></li>
+                <li><a href="#marketplace">Projetos</a></li>
+                <li><a href="#produtor">Sou Produtor</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Terra Roxa, Futuro Verde.</h1>
+        <p>Unindo a força do agro de Tomazina à nova economia global de carbono. Rentabilize sua preservação ambiental com tecnologia e segurança.</p>
+        <div>
+            <a href="#marketplace" class="btn btn-verde">Explorar Mercado</a>
+            <a href="#saiba-mais" class="btn btn-terra">Como Funciona?</a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat-item">
+            <h3 id="count-ha">0</h3>
+            <p>Hectares Monitorados</p>
+        </div>
+        <div class="stat-item">
+            <h3 id="count-co2">0</h3>
+            <p>Toneladas de CO2 Sequestradas</p>
+        </div>
+        <div class="stat-item">
+            <h3 id="count-pro">0</h3>
+            <p>Produtores em Tomazina</p>
+        </div>
+        <div class="stat-item">
+            <h3 id="count-money">0</h3>
+            <p>Injetados na Economia Local</p>
+        </div>
+    </section>
+
+    <section class="explainer" id="saiba-mais">
+        <div class="explainer-img">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" alt="Mata Nativa" class="img-fluid">
+        </div>
+        <div class="explainer-content">
+            <h2>O que é o Crédito de Carbono?</h2>
+            <p>Imagine que cada árvore preservada e cada hectare de solo bem cuidado em Tomazina funciona como um "aspirador" que retira poluição da atmosfera. Esse trabalho ambiental tem um valor financeiro real.</p>
+            <p><strong>A Compra de Crédito:</strong> Empresas que não conseguem reduzir todas as suas emissões compram esses "títulos de preservação" para compensar seu impacto. 1 crédito equivale a 1 tonelada de CO2 que você, produtor, evitou que fosse para o ar.</p>
+            
+            <div class="box-info">
+                <h4>Como funciona o Ciclo:</h4>
+                <ul>
+                    <li><strong>1. Cadastro:</strong> Você mapeia sua área de mata ou plantio sustentável.</li>
+                    <li><strong>2. Auditoria:</strong> Satélites e técnicos verificam a saúde da sua terra.</li>
+                    <li><strong>3. Geração:</strong> A área é convertida em créditos digitais (Tokens).</li>
+                    <li><strong>4. Recebimento:</strong> O mercado compra seus créditos e o dinheiro cai na sua conta.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="section-title" id="marketplace">Portfólio de Ativos Verdes</h2>
+    <section class="marketplace">
+        <div class="card">
+            <div class="card-img card-cafe">
+                <span class="card-tag">Café Especial</span>
+            </div>
+            <div class="card-content">
+                <h4>Fazenda Rio das Cinzas</h4>
+                <p>Preservação de 40 hectares de mata ciliar e reserva legal. Localizada próxima ao Salto Cavalcanti.</p>
+                <span class="price">R$ 75,00 / tCO2</span>
+                <a href="#" class="btn btn-verde btn-full">Comprar Crédito</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img card-reflorestamento">
+                <span class="card-tag">Reflorestamento</span>
+            </div>
+            <div class="card-content">
+                <h4>Sítio Bela Vista - Bairro Anta</h4>
+                <p>Projeto de recuperação de encostas com plantio de 5.000 mudas de árvores nativas do Paraná.</p>
+                <span class="price">R$ 88,00 / tCO2</span>
+                <a href="#" class="btn btn-verde btn-full">Comprar Crédito</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img card-ilpf">
+                <span class="card-tag">ILPF</span>
+            </div>
+            <div class="card-content">
+                <h4>Estância Santo Antônio</h4>
+                <p>Integração Lavoura-Pecuária-Floresta, otimizando o sequestro de carbono no solo fértil da região.</p>
+                <span class="price">R$ 92,00 / tCO2</span>
+                <a href="#" class="btn btn-verde btn-full">Comprar Crédito</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section" id="produtor">
+        <div class="form-container">
+            <h2>Sou Produtor em Tomazina</h2>
+            <p class="form-subtitle">Preencha os dados abaixo para uma pré-avaliação do seu potencial de lucro verde.</p>
+            <form id="carbonForm">
+                <div class="form-group">
+                    <label>Nome Completo ou Razão Social</label>
+                    <input type="text" placeholder="Nome do proprietário ou da fazenda" required>
+                </div>
+                <div class="form-group">
+                    <label>WhatsApp (com DDD)</label>
+                    <input type="tel" placeholder="(43) 9 9999-9999" required>
+                </div>
+                <div class="form-group">
+                    <label>Tamanho da Área de Preservação (Hectares)</label>
+                    <input type="number" placeholder="Ex: 25" required>
+                </div>
+                <div class="form-group">
+                    <label>Tipo de Cultura Dominante</label>
+                    <select>
+                        <option>Café</option>
+                        <option>Grãos (Soja/Milho)</option>
+                        <option>Pecuária</option>
+                        <option>Apenas Mata Nativa</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-submit">ENVIAR PARA ANÁLISE AGORA</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <h3>Tomazina Green</h3>
+                <p>Liderando a transição sustentável no Norte Pioneiro do Paraná. Tecnologia Blockchain para um agro mais forte e transparente.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#saiba-mais">Saiba Mais</a></li>
+                    <li><a href="#marketplace">Mercado de Carbono</a></li>
+                    <li><a href="#produtor">Área do Produtor</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contato</h4>
+                <ul>
+                    <li>E-mail: contato@tomazinagreen.com.br</li>
+                    <li>Tel: (43) 3563-XXXX</li>
+                    <li>Tomazina - PR | Vale do Rio das Cinzas</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Tomazina Green Marketplace. Todos os direitos reservados. Design para o Futuro Sustentável.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5543999999999" class="whatsapp-float" target="_blank">
+        W
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
